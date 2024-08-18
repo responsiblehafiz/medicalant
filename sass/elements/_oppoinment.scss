@@ -1,0 +1,101 @@
+
+.appoinment-area {
+    padding: 100px 0;
+    .rv-26-oppoinment {
+        padding: 50px 50px;
+        background: #39CABB;
+        .rv-26-service-title h2 {
+            font-family: "Source Sans 3", sans-serif;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 50px;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+        .rv-26-service-diagnosis {
+            font-family: "Source Sans 3", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #FFFFFF;
+            border-bottom: 1px solid #EBFAF8;
+            padding-bottom: 30px;
+        }
+        .form-group{
+            display: inline-block;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    }
+    
+}
+
+.rv-26-appointment__form {
+    margin-top: 30px;
+}
+
+
+.rv-26-appointment__form input.form-control {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #002C5D;
+    padding: 10px 20px;
+}
+
+select.form-control {
+    padding: 10px 20px;
+    color: #002C5D;
+}
+
+button.rv-26-appointment-btn {
+    padding: 10px 60px;
+    border-radius: 5px;
+    background: #002C5D;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.name-phone {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.email-service {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.button-date {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.button-grp {
+    display: inline-block;
+    width: 100%;
+    margin-top: 12px;
+}
+
+button.rv-26-appointment-btn a {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+}
+
+.form-group h5 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+}

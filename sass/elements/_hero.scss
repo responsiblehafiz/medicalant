@@ -1,0 +1,102 @@
+.hero-section {
+  background: url(../images/background/hero-bg-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  padding: 280px 0;
+  .hero-content {
+    h4 {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      position: relative;
+      padding: 5px 20px;
+      background: #fff;
+      display: inline-block;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 60px;
+      font-family: "Source Sans 3", sans-serif;
+      line-height: 70px;
+      font-weight: 700;
+      span {
+        color: #39cabb;
+      }
+    }
+    p{
+      max-width: 50%;
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 400;
+      margin: 25px 0 30px;
+    }
+  }
+}
+
+.medi-social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .medi-button a{
+    display: inline-block;
+    background: #39cabb;
+    padding: 12px 30px;
+    color: #fff;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    font-size: 18px;
+    border: 1px solid #39cabb;
+    &::before{
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 100%;
+      left: 50%;
+      top: 0;
+      background: #fff;
+      border-radius: 5px;
+      z-index: -1;
+      transition: 0.5s;
+    }
+  }
+}
+
+.medi-button a:hover{
+  color: #39cabb;
+}
+
+
+
+.medi-button a:hover:before{
+    width: 100%;
+    left: 0;
+}
+
+  .medi-button:hover:before{
+    width: 100%;
+    left: 0;
+}
+
+  .medi-play a {
+    font-size: 20px;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    background: #39cabb;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+
+

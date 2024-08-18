@@ -1,0 +1,30 @@
+.about-area {
+  padding: 100px 0;
+}
+
+.about-thumb {
+  position: relative;
+  z-index: -1;
+}
+
+img.about-thum-shape {
+  margin-top: -85px;
+}
+
+.section-tittle h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #002c5d;
+  font-family: "Source Sans 3", sans-serif;
+  padding: 5px 20px;
+  background: #ebfaf8;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.section-tittle h2 {
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 700;
+}/*# sourceMappingURL=about.css.map */

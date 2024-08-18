@@ -1,0 +1,118 @@
+.team-area {
+  padding: 100px 0;
+  background: #ebfaf8;
+  .section-tittle{
+    margin-bottom: 100px;
+  }
+  .section-tittle h5 {
+    background: #fff;
+  }
+}
+
+
+.single-team-box {
+  position: relative;
+  .team-thum {
+    position: relative;
+    top: -50px;
+    &::before {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 0;
+      background: #39cabb4d;
+      transition: 0.5s;
+      border-radius: 5px;
+    }
+    img {
+      border-radius: 5px;
+    }
+  }
+  &:hover .team-thum::before {
+    height: 100%;
+    top: 0;
+  }
+  .team-content {
+    padding: 20px 28px;
+    background: #fff;
+    width: 252px;
+    height: 90px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px 0px rgba(231, 231, 231, 0.5019607843);
+    transition: 0.5s;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 3px;
+      bottom: 0;
+      background: #39cabb;
+      left: 50%;
+      transition: 0.5s;
+    }
+  }
+  &:hover .team-content::before {
+    width: 100%;
+    left: 0;
+  }
+
+  &:hover .team-content {
+    height: 128px;
+    .team-icon {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.team-icon {
+  margin-top: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  a {
+    margin-left: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #002c5d;
+    transition: 0.5s;
+    &:first-child {
+      margin-left: 0;
+    }
+    &:hover {
+      color: #39cabb;
+    }
+  }
+
+  .team-tittle {
+    h4 {
+      font-family: "Source Sans 3", sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 28px;
+      text-align: center;
+      color: #39cabb;
+      margin: 0;
+    }
+    span {
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: center;
+      color: #616161;
+    }
+  }
+}

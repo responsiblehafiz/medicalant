@@ -1,0 +1,122 @@
+.about-area {
+  padding: 100px 0;
+}
+
+.about-right {
+  margin-left: 37px;
+}
+
+.about-thumb {
+  position: relative;
+  z-index: -1;
+}
+
+img.about-thum-shape {
+  margin-top: -115px;
+}
+
+.section-tittle h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #002c5d;
+  font-family: "Source Sans 3", sans-serif;
+  padding: 5px 20px;
+  background: #ebfaf8;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.section-tittle h2 span {
+  margin-left: 10px;
+}
+
+.section-tittle h2 {
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 700;
+  font-family: "Source Sans 3", sans-serif;
+  color: #002c5d;
+  span {
+    color: #39cabb;
+  }
+}
+
+.section-tittle p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #616161;
+  font-family: "Roboto", sans-serif;
+  max-width: 90%;
+  margin: 25px 0 30px;
+}
+
+.medi-icon-list ul li {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #002c5d;
+  margin-bottom: 15px;
+  i {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid;
+    background: #39CABB;
+    color: #fff;
+    margin-right: 15px;
+    border-radius: 50%;
+  }
+}
+
+.medi-button a {
+  display: inline-block;
+  background: #39cabb;
+  padding: 12px 30px;
+  color: #fff;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  font-size: 18px;
+  border: 1px solid #39cabb;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    background: #fff;
+    border-radius: 5px;
+    z-index: -1;
+    transition: 0.5s;
+  }
+}
+
+.medi-button a:hover {
+  color: #39cabb;
+}
+
+.medi-button a:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+.medi-button:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+.about-area .medi-button{
+  margin-top: 50px;
+}
+
