@@ -1785,10 +1785,7 @@ button.rv-26-appointment-btn a {
 
 /* footer style */
 .footer-area {
-  background: url(/medicalant/images/footer/footer-bg.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #19426E;
   padding: 100px 0 0;
 }
 
